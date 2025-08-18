@@ -1,0 +1,17 @@
+# Rust build artifacts
+/target
+
+# Ignore all files without an extension (binaries)
+.*
+
+# Re-include important dotfiles
+!.gitignore
+!.gitattributes
+!.gitmodules
+
+# Re-include source/config files with extensions
+!*.rs
+!*.toml
+!*.lock
+!*.md
+
